@@ -1,0 +1,30 @@
+[
+    [
+        ["bras","doigt"],
+        ["yeux","pouce"]
+    ],
+    [
+        ["bras","pied"],
+        ["yeux","index"]
+    ],
+    [
+        ["bras","pied"],
+        ["yeux","index"]
+    ],
+    [
+        ["bras","nez"],
+        ["yeux","index"]
+    ],
+    [
+        ["bras","nez"],
+        ["yeux","pouce"]
+    ],
+    [
+        ["tete","pied"],
+        ["yeux","pouce"]
+    ],
+    [
+        ["tete","main"],
+        ["bras","nez"]
+    ]
+]
