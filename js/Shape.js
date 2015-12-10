@@ -53,7 +53,8 @@ var Shape = function(options){
     
     // setup
     
-    self.speed = Math.random()+.5;
+    //self.speed = Math.random()+.5;
+    //self.speed *= Math.random()<.5 ? 1:-1;
     img = self.img = loadImage(self.src);
     
     //
