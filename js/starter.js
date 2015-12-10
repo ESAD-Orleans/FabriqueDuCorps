@@ -1,4 +1,4 @@
-var shapes, links;
+var shapes, links, dX, dY;
 
 function preload(){
     
@@ -26,16 +26,24 @@ function setup() {
 }
 
 function draw() {
+    
     resetMatrix();
     clear();
+    dX = windowWidth-320;
+    dY = windowHeight-500;
+    push();
+    translate(dX/2,dY/2);
     shapes.forEach(function(shape){
         shape.draw();
     });
     links.forEach(function(link){
         link.draw();
     });
+    pop();
 }
 
 function windowResized() {
 	resizeCanvas(windowWidth, windowHeight);
 }
+
+window.addEventListener('touchstart',function(e){e.preventDefault()});

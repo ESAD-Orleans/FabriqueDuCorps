@@ -2,7 +2,7 @@
     {
         "id":"bras",
         "src":"img/bras.png",
-        "title-src":"img/titre_bras.png",
+        "title_src":"img/titre_bras.png",
         "scale":0.15,
         "x":80,
         "y":80,
@@ -41,7 +41,7 @@
     },{
         "id":"jambe",
         "src":"img/jambe.png",
-        "title-src":"img/titre_jambe.png",
+        "title_src":"img/titre_jambe.png",
         "scale":0.15,
         "x":230,
         "y":80,
@@ -72,7 +72,7 @@
     },{
         "id":"yeux",
         "src":"img/yeux.png",
-        "title-src":"img/titre_yeux.png",
+        "title_src":"img/titre_yeux.png",
         "scale":0.15,
         "x":80,
         "y":250,
@@ -108,7 +108,7 @@
     },{
         "id":"torse",
         "src":"img/torse.png",
-        "title-src":"img/titre_torse.png",
+        "title_src":"img/titre_torse.png",
         "scale":0.15,
         "x":230,
         "y":200,
@@ -159,7 +159,7 @@
     },{
         "id":"main",
         "src":"img/main.png",
-        "title-src":"img/titre_main.png",
+        "title_src":"img/titre_main.png",
         "scale":0.15,
         "x":80,
         "y":400,
@@ -190,7 +190,7 @@
     },{
         "id":"tete",
         "src":"img/tete.png",
-        "title-src":"img/titre_tete.png",
+        "title_src":"img/titre_tete.png",
         "scale":0.15,
         "x":230,
         "y":400,

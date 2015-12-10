@@ -1,12 +1,21 @@
 var Shape = function(options){
     
-    var img, m = 0, self = _(options).extend({
+    var img, touch_dist = -1, title_scale = 1, title_img, m = 0, self = _(options).extend({
         draw:function(){
+            push();
             var t = self.getTransform();
             m+=self.speed/20;
             translate(t.x,t.y);
             scale(self.scale,self.scale);
+            if(touchIsDown){
+                touch_dist = dist(self.x,self.y,touchX-dX/2,touchY-dY/2);
+                title_scale = Math.sqrt((200-touch_dist)/100);
+                if(title_scale == NaN){title_scale = 0}
+            }else{
+                title_scale *= 0.9;
+            }
             image(img,-img.width/2,-img.height/2);
+            if(title_scale>0) image(title_img,-title_img.width*title_scale/2,-title_img.height*title_scale/2,title_img.width*title_scale,title_img.height*title_scale);
             /*stroke(0,0,255);
             noFill();
             rectMode(CENTER);
@@ -20,7 +29,7 @@ var Shape = function(options){
                 /*ellipse(anchor.x-img.width/2,anchor.y-img.height/2,20,20);
                 */
             });
-            resetMatrix();
+            pop();
         },
         getPosition:function(){
             return {
@@ -56,6 +65,8 @@ var Shape = function(options){
     //self.speed = Math.random()+.5;
     //self.speed *= Math.random()<.5 ? 1:-1;
     img = self.img = loadImage(self.src);
+    console.log(self.title_src);
+    title_img = self.title_img = loadImage(self.title_src);
     
     //
     
