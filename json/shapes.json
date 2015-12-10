@@ -2,12 +2,12 @@
     {
         "id":"bras",
         "src":"img/bras.png",
-        "title-src":"img/typo-01.png",
+        "title-src":"img/titre_bras.png",
         "scale":0.15,
         "x":80,
         "y":80,
         "r":20,
-        "speed":-1,
+        "speed":-0.5,
         "anchors":[
             {
                 "id":"doigt",
@@ -41,12 +41,12 @@
     },{
         "id":"jambe",
         "src":"img/jambe.png",
-        "title-src":"img/typo-01.png",
+        "title-src":"img/titre_jambe.png",
         "scale":0.15,
         "x":230,
         "y":80,
         "r":10,
-        "speed":2,
+        "speed":1,
         "anchors":[
             {
                 "id":"piedhaut",
@@ -72,7 +72,7 @@
     },{
         "id":"yeux",
         "src":"img/yeux.png",
-        "title-src":"img/typo-01.png",
+        "title-src":"img/titre_yeux.png",
         "scale":0.15,
         "x":80,
         "y":250,
@@ -108,12 +108,12 @@
     },{
         "id":"torse",
         "src":"img/torse.png",
-        "title-src":"img/typo-01.png",
+        "title-src":"img/titre_torse.png",
         "scale":0.15,
         "x":230,
         "y":200,
         "r":10,
-        "speed":1,
+        "speed":-0.5,
         "anchors":[
             {
                 "id":"pied",
@@ -159,12 +159,12 @@
     },{
         "id":"main",
         "src":"img/main.png",
-        "title-src":"img/typo-01.png",
+        "title-src":"img/titre_main.png",
         "scale":0.15,
         "x":80,
         "y":400,
         "r":10,
-        "speed":-1.5,
+        "speed":-0.75,
         "anchors":[
             {
                 "id":"piedhaut",
@@ -190,12 +190,12 @@
     },{
         "id":"tete",
         "src":"img/tete.png",
-        "title-src":"img/typo-01.png",
+        "title-src":"img/titre_tete.png",
         "scale":0.15,
         "x":230,
         "y":400,
         "r":10,
-        "speed":1,
+        "speed":-1.5,
         "anchors":[
             {
                 "id":"index",
