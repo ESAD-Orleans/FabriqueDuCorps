@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="fr.esad-orleans.arcenf.fabriqueducorps" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>fabrique du corps</name>
+    <description>
+        fabrique du corps
+    </description>
+    <author email="apucinelli@esad-orleans.fr" href="https://github.com/ESAD-Orleans/FabriqueDuCorps">
+        Audrey Pucinelli
+    </author>
+    <content src="starter.html" />
+    <access origin="*" />
+</widget>
