@@ -1,30 +1,241 @@
 [
+   
+    [
+        ["bras","pied"],
+        ["yeux","index"]
+    ],
+    [
+        ["bras","pied"],
+        ["yeux","pouce"]
+    ],
+    [
+        ["bras","pied"],
+        ["torse","pied"]
+    ],
+    [
+        ["bras","pied"],
+        ["torse","indexhaut"]
+    ],
+    [
+        ["bras","pied"],
+        ["yeux","cuisse"]
+    ],
+    [
+        ["bras","pied"],
+        ["torse","pouce"]
+    ],
+    [
+        ["bras","cuissegauche"],
+        ["yeux","pouce"]
+    ],
+    
+    [
+        ["bras","cuissegauche"],
+        ["yeux","cuisse"]
+    ],
+    
+    [
+        ["bras","cuissegauche"],
+        ["torse","pied"]
+    ],
+    
+    [
+        ["bras","cuissegauche"],
+        ["torse","indexhaut"]
+    ],
+    
+    [
+        ["bras","cuissedroite"],
+        ["torse","indexhaut"]
+    ],
+    
+    [
+        ["bras","cuissedroite"],
+        ["torse","pied"]
+    ],
+    
+    [
+        ["bras","cuissedroite"],
+        ["bras","doigt"]
+    ],
+    
+    [
+        ["bras","cuissedroite"],
+        ["jambe","piedhaut"]
+    ],
+    
+    [
+        ["bras","cuissedroite"],
+        ["jambe","piedbas"]
+    ],
+    
+    [
+        ["bras","nez"],
+        ["jambe","piedbas"]
+    ],
+    
+    [
+        ["bras","nez"],
+        ["jambe","piedhaut"]
+    ],
+    
     [
         ["bras","doigt"],
-        ["yeux","pouce"]
+        ["jambe","piedhaut"]
     ],
+    
     [
-        ["bras","pied"],
-        ["yeux","index"]
+        ["bras","doigt"],
+        ["jambe","piedbas"]
     ],
+    
     [
-        ["bras","pied"],
-        ["yeux","index"]
+        ["jambe","tete"],
+        ["torse","epaulegauche"]
     ],
+    
     [
-        ["bras","nez"],
-        ["yeux","index"]
+        ["jambe","tete"],
+        ["torse","epaulemilieu"]
     ],
+    
     [
-        ["bras","nez"],
-        ["yeux","pouce"]
+        ["jambe","tete"],
+        ["torse","epauledroite"]
     ],
+    
     [
-        ["tete","pied"],
-        ["yeux","pouce"]
+        ["jambe","torse"],
+        ["torse","epaulegauche"]
     ],
+    
     [
-        ["tete","main"],
-        ["bras","nez"]
+        ["jambe","torse"],
+        ["torse","epaulemilieu"]
+    ],
+    
+    [
+        ["jambe","torse"],
+        ["torse","epauledroite"]
+    ],
+    
+    [
+        ["yeux","tete"],
+        ["main","majeur"]
+    ],
+    
+    [
+        ["yeux","tete"],
+        ["main","piedhaut"]
+    ],
+    
+    [
+        ["yeux","pied"],
+        ["main","piedhaut"]
+    ],
+    
+    [
+        ["yeux","pied"],
+        ["main","majeur"]
+    ],
+    
+    [
+        ["yeux","pied"],
+        ["torse","indexbas"]
+    ],
+    
+    [
+        ["torse","indexbas"],
+        ["main","majeur"]
+    ],
+    
+    [
+        ["torse","indexbas"],
+        ["main","piedhaut"]
+    ],
+    
+    [
+        ["torse","indexbas"],
+        ["main","index"]
+    ],
+    
+    [
+        ["torse","indexbas"],
+        ["main","piedbas"]
+    ],
+    
+    [
+        ["torse","indexbas"],
+        ["tete","tete"]
+    ],
+    
+    [
+        ["torse","indexbas"],
+        ["tete","pouce"]
+    ],
+    
+    [
+        ["torse","indexbas"],
+        ["tete","index"]
+    ],
+    
+    [
+        ["torse","indexbas"],
+        ["tete","pied"]
+    ],
+    
+    [
+        ["torse","bras"],
+        ["tete","pied"]
+    ],
+    
+    [
+        ["torse","bras"],
+        ["tete","pouce"]
+    ],
+    
+    [
+        ["torse","epauledroite"],
+        ["tete","pouce"]
+    ],
+    
+    [
+        ["torse","epauledroite"],
+        ["tete","pied"]
+    ],
+    
+    [
+        ["torse","epauledroite"],
+        ["tete","yeux"]
+    ],
+    
+    [
+        ["tete","pouce"],
+        ["main","index"]
+    ],
+    
+    [
+        ["tete","pouce"],
+        ["main","piedbas"]
+    ],
+    
+    [
+        ["tete","tete"],
+        ["main","piedbas"]
+    ],
+    
+    [
+        ["tete","tete"],
+        ["main","index"]
+    ],
+    
+    [
+        ["tete","yeux"],
+        ["tete","pied"]
     ]
+
+
+
+
+    
 ]

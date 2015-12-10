@@ -5,7 +5,8 @@ var Link = function(options){
             resetMatrix();
             var a = self.getPoint(0),
                 b = self.getPoint(1);
-            stroke(255,0,0);
+            stroke(33,148,135);
+            strokeWeight(0.5);
             line(a.x,a.y,b.x,b.y);
             
         },
